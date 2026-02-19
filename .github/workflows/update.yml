@@ -21,3 +21,5 @@ jobs:
       #  uses: DeterminateSystems/flake-checker-action@main
       - name: Update flake.lock
         uses: DeterminateSystems/update-flake-lock@main
+        with:
+          pr: false
